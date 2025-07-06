@@ -1,0 +1,6 @@
+provider: "ollama/llama3.2"
+api_token: null
+base_url: "http://localhost:11434"
+params:
+  temperature: 0.3
+  max_tokens: 1000
