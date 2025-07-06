@@ -1,0 +1,44 @@
+[
+    {
+        "company_name_and_location": "Adyen | San Francisco, CA",
+        "technology_stack": "Node.js / Python / Firebase / Postgres / Supabase",
+        "job_description": "We’re hiring a Founding Research Engineer (AI) to help launch this team. You’ll work directly with our SVP of Engineering and be the first AI research hire in SF, helping define our strategy and ship applied AI systems—focused on areas like foundational models, agentic workflows around identity and risk.",
+        "application_details": "More info: [https://careers.adyen.com/vacancies/6685352-founding-research-engineer-ai?locale=en] Questions? Reach out: matt.rum@adyen.com",
+        "error": false
+    },
+    {
+        "company_name_and_location": "Pave | Remote (US or Canada)",
+        "technology_stack": "Data Scientist, Backend Engineer",
+        "job_description": "We’re hiring a Backend Engineer to scale our data processing platform to 100M+ users: <https://wellfound.com/l/2BmPpa> We’re hiring a Data Scientist to ship models that will redefine the US credit system, making it fair and inclusive: <https://wellfound.com/l/2AqFf9>",
+        "application_details": "Shoot us an email at howdy@pave.dev and let us know you found us on HN! Pave is backed by Better Tomorrow, Bessemer, 8VC, and other top funds and angels from Coinbase, Chime, SoFi, CashApp, and Plaid.",
+        "error": false
+    },
+    {
+        "company_name_and_location": "Booksy | Remote (UK/Poland/Spain)",
+        "technology_stack": "Mid-Level Engineer (Python/JS), Senior Python Engineer, Staff Engineer",
+        "job_description": "At Booksy, we’re more than just the #1 booking app for beauty and wellness — we’re on a mission to empower small business owners around the world. Every day, millions of customers rely on Booksy to book services and manage their routines — and thousands of service providers count on us to grow their businesses.",
+        "application_details": "If interested please reach out to Tim.McAllister[at]booksy.com",
+        "error": false
+    },
+    {
+        "company_name_and_location": "Audio-First Test Prep Platform | Tokyo, JP or San Francisco, CA",
+        "technology_stack": "Node.js / Python / Firebase / Postgres / Supabase",
+        "job_description": "We’re building an adaptive, audio-driven test prep platform designed for nurses, pre-med students, law students, and other high-intensity learners balancing work, family, and study. Think voice-based Duolingo meets real-time spaced repetition.",
+        "application_details": "[https://hail-peridot-e09.notion.com/Hiring-Full-Stack-Software-Engineer-Contract-209360a2255f80f5ad9cdc644c2b1867?pvs=143]",
+        "error": false
+    },
+    {
+        "company_name_and_location": "Spellbrush | Tokyo, JP or San Francisco, CA",
+        "technology_stack": "Game Dev, Full Stack Software Engineer, Audio/LLM Researcher",
+        "job_description": "We build AI models to make anime real.",
+        "application_details": "Ping over name of best waifu or husband to jobs@spellbrush.com. Can sponsor visas to either USA or JP.",
+        "error": false
+    },
+    {
+        "company_name_and_location": "Title: Full-Stack Engineer | Contract | Remote (US-based)",
+        "technology_stack": "Node.js / Python / Firebase / Postgres / Supabase",
+        "job_description": "We’re building an adaptive, audio-driven test prep platform designed for nurses, pre-med students, law students, and other high-intensity learners balancing work, family, and study. Think voice-based Duolingo meets real-time spaced repetition.",
+        "application_details": "[https://hail-peridot-e09.notion.com/Hiring-Full-Stack-Software-Engineer-Contract-209360a2255f80f5ad9cdc644c2b1867?pvs=143]",
+        "error": false
+    }
+]
