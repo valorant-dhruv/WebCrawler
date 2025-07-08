@@ -16,10 +16,6 @@ def preprocess_job_data(file_path: str, field_priority: List[str]) -> List[str]:
         List[str]: List of preprocessed text documents, one per job listing
     """
     
-    # Default priority order (semantic importance)
-    if field_priority is None:
-        field_priority = ['job_description', 'technology_stack', 'company_location']
-    
     # Validate field_priority
     valid_fields = {'job_description', 'technology_stack', 'company_location'}
     if not all(field in valid_fields for field in field_priority):
@@ -104,19 +100,19 @@ if __name__ == "__main__":
     # Default priority (job content first)
     print("=== DEFAULT PRIORITY ===")
     docs_default = preprocess_job_data('../jobs.json', ['job_description','technology_stack','company_location'])
-    print(f"Sample: {docs_default[0]}...")
+    print(f"Sample: {docs_default[0]}")
     
     # Location-first priority (for location-sensitive searches)
     print("\n=== LOCATION-FIRST PRIORITY ===")
     docs_location_first = preprocess_job_data('../jobs.json', 
                                             ['company_location', 'job_description', 'technology_stack'])
-    print(f"Sample: {docs_location_first[0]}...")
+    print(f"Sample: {docs_location_first[0]}")
     
     # Tech-first priority (for skill-based matching)
     print("\n=== TECH-FIRST PRIORITY ===")
     docs_tech_first = preprocess_job_data('../jobs.json',
                                         ['technology_stack', 'job_description', 'company_location'])
-    print(f"Sample: {docs_tech_first[0]}...")
+    print(f"Sample: {docs_tech_first[0]}.")
     
     # Compare how the same job looks with different priorities
     print(f"\nProcessed {len(docs_default)} documents with each priority configuration")
