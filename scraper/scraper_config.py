@@ -16,3 +16,4 @@ class ScraperConfig:
             extraction_strategy = extraction_strategy, #Can we any extraction strategy such as CSS based or LLM based
             page_timeout=80000 
         )
+        
